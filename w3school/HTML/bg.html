@@ -1,0 +1,138 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bg Colors</title>
+    <style>
+        * {
+
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            /* color: rgb(78, 245, 56); */
+        }
+
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: aqua;
+        }
+
+        section {
+            display: -webkit-flex;
+            display: flex;
+        }
+
+        nav {
+            /* float: left; */
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            width: 30%;
+            height: 300px;
+            background-color: #ccc;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            /* float: left;
+            width: 70%;
+            height: 300px; */
+            -webkit-flex: 3;
+            -ms-flex: 3;
+            flex: 3;
+            background-color: chartreuse;
+            padding: 20px;
+        }
+
+        /* section::after{
+            content: "";
+            display: table;
+            clear: both;
+        } */
+        footer {
+            background-color: cadetblue;
+            padding: 10px;
+            text-align: center;
+            color: crimson;
+        }
+
+        /* @media (max-width:600px) {
+            nav,article{
+                width: 100%;
+                height: auto;
+            }
+            
+        } */
+
+
+        @media (max-width:600px) {
+            section {
+                -webkit-box-flex: column;
+                flex-direction: column;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- layout -->
+
+
+    <h1>Layout</h1>
+    <p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will
+        stack on top of each other.</p>
+    <p>Resize the browser window to see the responsive effect</p>
+    <header>
+        <h2>Food</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Pizza</a></li>
+                <li><a href="#">Nachos</a></li>
+                <li><a href="#">Burger</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>Pizza</h1>
+            <p>Savor the simplicity of a solo pizza experience – a crispy, golden crust adorned with a symphony of
+                tomato sauce, gooey cheese, and your favorite toppings. Each slice is a culinary canvas, delivering a
+                perfect blend of textures and flavors that dance on your taste buds. </p>
+            <p>Whether you opt for a classic Margherita or customize with exotic toppings, the joy of a personal pizza
+                lies in the uncompromised indulgence, offering a moment of delicious solitude.</p>
+        </article>
+    </section>
+    <footer>
+        <p>Footer</p>
+    </footer>
+    <section>
+        <h2>Media queries</h2>
+        <p>Resize the browser window.</p>
+
+        <p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+        <div class="left">
+            <p>Left Menu</p>
+        </div>
+        <div class="main">
+            <p>Main Menu</p>
+        </div>
+        <div class="right">
+            <p>Right Menu</p>
+        </div>
+    </section>
+</body>
+
+</html>

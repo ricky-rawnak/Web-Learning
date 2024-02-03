@@ -1,0 +1,67 @@
+body
+{
+    font-size: 30px;
+    margin: 0%;
+    background-color: darkgrey;
+    text-align: center;
+}
+.parent
+{
+    width:70vh;
+    height: 70vh;
+    background-color: rgb(4, 4, 102);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.child
+{
+    width: 15%;
+    height: 25%;
+    background-color: cornsilk;
+    
+    margin: 5px;
+
+}
+.parent1
+{
+   
+width: 30%;
+height: 40vh;
+background-color: rgb(247, 9, 9);
+}
+.child1
+{
+    width: 20%;
+    height: 25%;
+    background-color: azure;
+    margin: 5px;
+}
+.parent2
+{
+    margin: 15px;
+    height: 30rem;
+    width: 60rem;
+    background-color: rgb(48, 16, 71);
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para
+{
+    font-size: 25px;
+    font-style: italic;
+    color: mediumvioletred;
+}
+.child2
+{
+    width: 30%;
+    
+    background-color: lightskyblue;
+    margin: 10px;
+}

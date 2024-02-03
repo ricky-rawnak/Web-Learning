@@ -1,0 +1,40 @@
+body{
+    margin: 100px;
+}
+
+.D2st {
+    background-color: #9679f8;
+    color: aliceblue;
+    width: 50rem;
+    height: 20px;
+    border: 1px solid;
+    padding: 50px 50px;
+    margin: 0px 150px;
+}
+
+.D2st h1 {
+    padding: 10px;
+    margin: -10px 350px;
+}
+
+.D3st {
+    padding: -5px 10px;
+    margin: 0px 150px;
+}
+
+.tables tr, th {
+    width: 30rem;
+    height: 5rem;
+    border: 1px solid #9679f8;
+}
+
+.page {
+    background-color: #baadeb;
+    bottom: 500rem;
+    border: 1px solid #9679f8;
+    width: 415px;
+    height: 253px;
+    border: 1px solid;
+    padding: -80px 90px;
+    margin: -255px 485px;
+}

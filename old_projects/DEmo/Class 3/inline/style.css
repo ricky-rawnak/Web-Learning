@@ -1,0 +1,22 @@
+body
+{
+    font-size: 26px;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container
+{
+    margin: 0 auto;
+    width: 80%;
+    background-color: bisque;
+    
+}
+.box
+{
+    width: 20%;
+    height: 20rem;
+    background-color: aquamarine;
+    display: inline-block;
+    margin:0 1rem ;
+    
+}

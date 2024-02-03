@@ -1,0 +1,32 @@
+body
+{
+    font-size: 20px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container
+{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box
+{
+    margin: 1rem;
+    width: 25%;
+    height: 45%;
+   background-color: rgb(88, 88, 88); 
+   padding: 1rem;
+   text-align: center;
+
+}
+.icon
+{
+    width: 3rem;
+
+}

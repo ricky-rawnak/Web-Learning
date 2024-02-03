@@ -1,0 +1,99 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    
+  }
+  .homepage
+  {
+
+    position: relative;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-blend-mode: darken;
+       background-image: linear-gradient(0deg, rgba(123,135,158,0) 54%, rgba(2,3,3,0.944397742006959) 100%, rgba(2,3,3,0.8631652490097601) 100%), url(/img/jeep.jpg);
+    
+  }
+  .navbar
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.logo
+{
+    font-size: 25px;
+    color: ivory;
+    font-family: 'Muli', sans-serif;
+    margin-top: 15px;
+    margin-left: 20px;
+    
+}
+.item
+{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.item a
+{
+   
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 1.5rem;
+}
+.demo
+{
+    color: red;
+}
+
+.box
+{
+    background-color: black;
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+    left: 10rem;
+}
+.info
+{
+    margin-top: 15rem;
+    margin-left: 20px;
+    color: rgb(233, 220, 220);
+}
+h1
+{
+    font-family: 'Dosis', sans-serif;
+    color: #CF000F;
+    font-size: 35px;
+}
+.button
+{
+    margin-left: 20px;
+    display: inline-block;
+    color: #CF000F;
+    font-size: 30px;
+    background-color:rgb(0, 0, 0);
+}
+.btn 
+{
+    border: solid rgb(238, 232, 232);
+    text-decoration: none;
+    color: #CF000F;
+}
+.btn:hover
+{
+    background-color: rgb(238, 232, 232);
+}
+.info1
+{
+    font-size: 20px;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: black;
+}

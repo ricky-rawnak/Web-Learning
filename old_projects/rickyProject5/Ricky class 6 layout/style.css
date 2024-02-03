@@ -1,0 +1,41 @@
+body
+{
+    margin 0%;
+    text-align: center;
+    font-size: 30px;
+
+}
+.parent
+{
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(219, 6, 6);
+}
+.child
+{
+    height: 35%;
+    width: 30%;
+    background-color: darksalmon;
+    margin: 3%;
+}
+.child1
+{
+    width: 50%;
+}
+.child2
+{
+    width: 50%;
+}
+.info
+{
+    width: 85%;
+    height: 25%;
+    background-color: ghostwhite;
+    margin: 4%;
+}

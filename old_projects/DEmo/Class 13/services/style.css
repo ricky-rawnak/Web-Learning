@@ -1,0 +1,64 @@
+body
+{
+    font-size: 20px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container
+{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box
+{
+    margin: 1rem;
+    width: 25%;
+    height: 45%;
+   background-color: rgb(88, 88, 88); 
+   padding: 1rem;
+   text-align: center;
+
+}
+.icon
+{
+    width: 3rem;
+
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+   
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+   
+    .container
+    {
+        flex-direction: column;
+    }
+    .box
+    {
+        width: 40%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    
+
+}

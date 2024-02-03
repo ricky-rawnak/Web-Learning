@@ -1,0 +1,89 @@
+
+       body
+       {
+           margin: 0;
+           box-sizing: border-box;
+           font-size: 20px;
+           font-family: Arial, Helvetica, sans-serif;
+           
+       }
+       /*-----------------------------------------navbar--------------------------------*/
+       .navbar
+       {
+           width: 95%;
+           margin: 0 auto;
+           display: flex;
+           justify-content: space-between;
+          
+        
+       }
+       .logo
+       {
+           width: 2.5rem;
+       }
+       .item
+       {
+           display: inline-block;
+           
+       }
+       .item a
+       {
+           text-decoration: none;
+           color:  black;
+           margin-left: .5rem;
+       }
+        /*-----------------------------section-----------------------------*/
+       .homepage {
+        display: flex;
+        width: 95%;
+        margin: auto;
+        
+        align-items: center;
+    }
+.info
+{
+    margin-top: 15rem;
+    margin-left: 20px;
+   color: #222f3e;
+}
+h2
+{
+    font-family: 'Dosis', sans-serif;
+    color: #222f3e;
+    font-size: 30px;
+}
+.info1
+{
+    font-size: 20px;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: black;
+}
+
+.button
+{
+    background-color: #10ac84;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 20px;
+  
+}
+.btn 
+{
+    text-decoration: none;
+    color:rgb(8, 1, 1);
+}
+ /*------------------------------------house-----------------------------*/
+.cover {
+
+	display: flex;
+	justify-content: center;
+	height: 80vh;
+}
+.cover img {
+	height: 100%;
+}

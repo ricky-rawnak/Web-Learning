@@ -1,0 +1,21 @@
+body
+{
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.img_1
+{
+    
+    width: 15rem;
+    
+}
+.box
+{
+    height: 20rem;
+    width: 15rem;
+    background-color: antiquewhite;
+    background-image: url(/img/aerial.jpg);
+    background-position: center;
+    background-size: cover;
+}

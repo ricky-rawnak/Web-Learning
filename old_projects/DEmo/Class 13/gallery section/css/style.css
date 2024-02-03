@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 26px;
+}
+.gellary-sec
+{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    height: 200vh;
+    width: 100%;
+}
+.gsrow
+{
+    display: flex;
+    flex-direction: row;
+    height: 25%;/*50vh*/
+    width: 100%;
+
+}
+.imgcon
+{
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.imgtitle
+{
+    width: 50%;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2.5rem;
+}
+.gstitle
+{
+    font-size: 1.5rem ;
+    margin-bottom: .2rem;
+}
+.gssubtit
+{
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+.gsbutten
+{
+    margin-bottom: .2rem;
+    text-decoration: none;
+    color: white;
+    background-color:#59abe3 ;
+    display: inline-block;
+    width: 7rem ;
+    padding: .3rem;
+    text-align: center;
+    border: solid #59abe3 1px;
+    border-radius: 25px;
+}
+.img1
+{
+    background-image:  linear-gradient(90deg, rgba(89,171,227,.5) 0%, rgba(89,171,227,0.4937325271905637) 100%),url(/img/aerial.jpg) ;
+}
+.img2
+{
+    background-image:  linear-gradient(90deg, rgba(89,171,227,.5) 0%, rgba(89,171,227,0.4937325271905637) 100%),url(/img/black-white.jpg);
+}
+.img3
+{
+    background-image:  linear-gradient(90deg, rgba(89,171,227,.5) 0%, rgba(89,171,227,0.4937325271905637) 100%),url(/img/composite.jpg);
+}
+.img4
+{
+    background-image: linear-gradient(90deg, rgba(89,171,227,.5) 0%, rgba(89,171,227,0.4937325271905637) 100%), url(/img/infrared.jpg);
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+:root
+{
+    font-size: 20px;
+}
+.container
+{
+    background-color: rgb(253, 246, 142);
+    width: 100vw;
+    margin: 0; 
+    font-size:1.5em;
+}
+.em 
+{
+    display: inline-block;
+    width: 48%;
+    font-size: 1.5em; /*30px*/
+}
+.emchi
+{
+    font-size: 2em; /*60px*/
+}
+.rem
+{
+    display: inline-block;
+    width: 48%;
+    font-size: 5rem;
+ }
+ .remchi
+{
+    font-size: 2rem;
+}
+.box{
+    width: 8rem;
+    background-color: brown;
+    height: 300px;
+}

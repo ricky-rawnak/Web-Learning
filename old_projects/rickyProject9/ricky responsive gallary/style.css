@@ -1,0 +1,118 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+.gs
+{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    height: 200vh;
+    width: 100%;
+}
+.gsrow
+{
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+}
+.imgsec
+{
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.imgt
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+    
+}
+.gstitle
+{
+    font-size: 1.5rem ;
+    margin-bottom: .3rem;
+}
+.gssubtit
+{
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+.gsbutton
+{
+    margin-bottom: .2rem;
+    text-decoration: none;
+    color: white;
+    background-color:#5caee4 ;
+    display: inline-block;
+    width: 7rem ;
+    padding: .3rem;
+    text-align: center;
+    border: solid ##5caee4 2px;
+    border-radius: 20px;
+}
+
+.inside
+{
+    display: none;
+}
+.img1
+{
+    background-image:linear-gradient(90deg, rgba(134, 151, 161, 0.363) 0%, rgba(193, 215, 230, 0.226) 100%), url(/img/apartment-architecture-balcony-buildings-280212.jpg);
+}
+.img2
+{
+    background-image: linear-gradient(90deg, rgba(134, 151, 161, 0.363) 0%, rgba(193, 215, 230, 0.226) 100%),url(/img/aerial-view-of-white-concrete-buildings-during-golden-hours-681368.jpg);
+}
+.img3
+{
+    background-image:linear-gradient(90deg, rgba(134, 151, 161, 0.363) 0%, rgba(193, 215, 230, 0.226) 100%), url(/img/houses-building-blue-sky-appartments-87223.jpg);
+}
+.img4
+{
+    background-image:linear-gradient(90deg, rgba(134, 151, 161, 0.363) 0%, rgba(193, 215, 230, 0.226) 100%), url(/img/green-potted-plants-near-building-3625734.jpg);
+}
+/*desktop*/
+@media only screen and (max-width: 1200px)
+{
+
+}
+/*laptop*/
+@media only screen and (max-width: 992px)
+{
+    
+}
+/*tab*/
+@media only screen and (max-width: 768px)
+{
+    :root
+    {
+        font-size: 22px;
+    }
+    .inside
+    {
+        display: block;
+    }
+    .outside
+    {
+        display: none;
+    }
+    .imgsec
+    {
+        width: 80%;
+        margin: 0 auto;
+        height: 90%;
+        padding-top: 3rem;
+    }
+}
+/*phone*/
+@media only screen and (max-width: 600px)
+{
+    
+}

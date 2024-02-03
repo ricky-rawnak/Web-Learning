@@ -1,0 +1,16 @@
+body
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#heading
+{
+    background-color: blueviolet;
+}
+.box
+{
+    height: 30rem;
+    width: 30rem;
+    background-color: aqua;
+    margin: 2rem;
+}

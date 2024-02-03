@@ -1,0 +1,171 @@
+body{
+     font-family:sans-serif ;
+     color:white;
+     background:url(/photo-1513104890138-7c749659a591.jpg);
+    
+     background-position: center;
+     background-size: cover;
+     position: relative;
+}
+
+
+
+
+.box
+{
+    width:900px;
+    float:right;
+    border:1px solid none;
+}
+nav
+{
+    float:right;
+    
+}
+li{
+    display:inline;
+    padding:1.5rem;
+}
+
+.box ul li a 
+{
+   text-decoration: none;
+   color:rgb(214, 172, 55);
+   width:120px;
+   
+   text-align:center;
+  
+   
+  
+   
+}
+.box ul li a:hover
+{
+    background-color:  rgba(201, 154, 25, 0.795);
+}
+.box ul li a:hover{color: white;}
+.logo img{
+    float:left;
+    height:auto;
+    width:90px;
+    background-color: rgb(185, 125, 14);
+}
+.wd
+{
+    width:300px;
+    height:570px;
+   background-color: black ; 
+  
+   opacity:0.9;
+   padding:40px;
+   
+   
+   
+}
+.wd h1{
+     text-align: center;
+     text-transform: uppercase;
+     font-weight:100px ;
+     font-family:Arial, Helvetica, sans-serif ;
+}
+.wd h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal ;
+    color: darkgrey;
+}
+.opt form ,input[type="button"]
+{
+background-color: black;
+color: white;
+padding:10px;
+margin:-14px auto;
+padding-left: 50px;
+padding-right: 50px;
+text-align:center;
+}
+.wd h3
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:normal ;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin:50px auto;
+}
+form,input[type="button"]:hover{background-color: rgba(201, 154, 25, 0.795);}
+
+
+.container
+{
+    width:100%;
+    margin:auto;
+    overflow: hidden;
+    margin-top: 1%;
+    display:flex;
+    justify-content: space-around;
+}
+.category
+{
+    color:#fff;
+    margin-top:5%;
+    display:flex;
+    text-align:center;
+    font-family:cursive;
+    justify-content: space-around;
+    height:80vh;
+    width: 90%;
+    flex-direction: row;
+    
+}
+.thai,.snacks,.grill,.more
+{
+    padding-left:1rem;
+}
+.more
+{
+    padding-left: 1rem;;
+    background-color: black;
+    color:darkgrey;
+    width:20%;
+    height: 50%;
+   
+}
+h4
+{
+    font-size:1rem;
+    margin:3%;
+    color: darkgrey;
+    text-align: center;
+}
+
+.thai
+{
+    background-image: url(/foodimages\ 2.jpg);
+    background-size: cover ;
+    background-position: center;
+    width:20%;
+    height: 50%;
+
+}
+.snacks
+{
+    background-image: url(/satay-chicken-peanut-sauce-thai-food-thai-snackimages\ 2.jpg);
+    background-size: cover ;
+
+    background-position: center;
+    width:20%;
+    height: 50%;
+    
+}
+.grill
+{
+    background-image: url(/images\ 3.jpg);
+    background-size: cover ;
+
+    background-position: center;
+    width:20%;
+    height: 50%;
+}
+
+

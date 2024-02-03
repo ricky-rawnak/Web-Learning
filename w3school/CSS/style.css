@@ -1,0 +1,73 @@
+
+.heading-para{
+    font-size: 50px;
+}
+.first-para{
+    color: darkslateblue;
+    text-align: center;
+    background-color: darkgrey;
+}
+
+#para1{
+    text-align: center;
+    color: firebrick;
+}
+.sample{
+    text-align: right;
+    font-weight: bold;
+    color: chartreuse;
+}
+p.sample{
+    text-align: center;
+    color: blue;
+}
+p.large{
+    font-size: 300%;
+}
+
+/* *{
+    color: crimson;
+} */
+
+h1,h2,h3,p{
+    color: rgb(1, 14, 1);
+    margin-left: 30px;
+}
+h4{
+    color: darkorange;
+}
+div{
+    background-color: burlywood;
+}
+div.first{
+    opacity: 0.1;
+}
+div.second{
+    opacity: 0.3;
+}
+div.third{
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

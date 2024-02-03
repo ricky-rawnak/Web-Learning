@@ -1,0 +1,156 @@
+:root
+{
+    font-size: 26px;
+}
+*
+{
+
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.gellary-sec
+{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    height: 200vh;
+    width: 100%;
+}
+.gsrow
+{
+    display: flex;
+    flex-direction: row;
+    height: 25%;/*50vh*/
+    width: 100%;
+
+}
+.imgcon
+{
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.imgtitle
+{
+    width: 50%;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2.5rem;
+}
+.inside
+{
+    display: none;
+}
+.gstitle
+{
+    font-size: 1.5rem ;
+    margin-bottom: .2rem;
+}
+.gssubtit
+{
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+.gsbutten
+{
+    margin-bottom: .2rem;
+    text-decoration: none;
+    color: white;
+    background-color:#59abe3 ;
+    display: inline-block;
+    width: 7rem ;
+    padding: .3rem;
+    text-align: center;
+    border: solid #59abe3 1px;
+    border-radius: 25px;
+}
+.img1
+{
+    background-image:  linear-gradient(90deg, rgba(89,171,227,.5) 0%, rgba(89,171,227,0.4937325271905637) 100%),url(/img/aerial.jpg) ;
+}
+.img2
+{
+    background-image:  linear-gradient(90deg, rgba(89,171,227,.5) 0%, rgba(89,171,227,0.4937325271905637) 100%),url(/img/black-white.jpg);
+}
+.img3
+{
+    background-image:  linear-gradient(90deg, rgba(89,171,227,.5) 0%, rgba(89,171,227,0.4937325271905637) 100%),url(/img/composite.jpg);
+}
+.img4
+{
+    background-image: linear-gradient(90deg, rgba(89,171,227,.5) 0%, rgba(89,171,227,0.4937325271905637) 100%), url(/img/infrared.jpg);
+}
+
+
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1440px) {
+    
+    
+@media only screen and (max-width: 1200px) {
+
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    
+    :root
+    {
+        font-size: 20px;
+    }
+    
+  
+    .gsrow
+    {
+        display: block;
+        
+    }
+    .inside
+    {
+        display: block;
+        padding-top: 3rem;
+    }
+    .sidetitle 
+    {
+        display: none;
+    }
+    .imgcon
+    {
+        width: 60%;
+        height: 80%;
+        margin:0 auto ;
+    }
+    .img1
+{
+    background-image:  linear-gradient(90deg, rgba(80, 80, 80, 0.664) 0%, rgba(68, 68, 68, 0.664) 100%),url(/img/aerial.jpg) ;
+}
+.img2
+{
+    background-image:  linear-gradient(90deg, rgba(89,171,227,.5) 0%, rgba(89,171,227,0.4937325271905637) 100%),url(/img/black-white.jpg);
+}
+.img3
+{
+    background-image:  linear-gradient(90deg, rgba(89,171,227,.5) 0%, rgba(89,171,227,0.4937325271905637) 100%),url(/img/composite.jpg);
+}
+.img4
+{
+    background-image: linear-gradient(90deg, rgba(89,171,227,.5) 0%, rgba(89,171,227,0.4937325271905637) 100%), url(/img/infrared.jpg);
+}
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}

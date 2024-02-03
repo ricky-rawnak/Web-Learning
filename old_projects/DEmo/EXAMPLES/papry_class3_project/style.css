@@ -1,0 +1,105 @@
+body
+{
+    font-size: 40px;
+    margin: 0px;
+    background-color:black;
+  
+}
+
+.container
+{
+    width: 80%;
+   margin: 0 auto;
+    background-color:rgb(215, 285, 175);
+}
+
+
+
+.box{
+    width: 20%;
+    position: relative;
+    height: 25rem;
+    background-color:red;
+    display: inline-block;
+    margin: 0 1rem;
+
+}
+
+.c{
+    position: absolute;
+    width: 88%;
+    height: 8rem;
+   
+    background-color:rgb(255, 99, 71);
+    display: inline-block;
+    margin: 0 1rem;
+
+}
+
+
+
+
+.box1{
+    width: 20%;
+    height: 20rem;
+    position: relative;
+    background-color:orangered;
+    display: inline-block;
+    margin: 0 1rem;
+
+}
+
+.d{
+    position: absolute;
+    width: 85%;
+    height: 8rem;
+   
+    background-color:rgb(246, 81, 73);
+    display: inline-block;
+    margin: 0 1rem;
+
+}
+
+
+
+.box2{
+    width: 20%;
+    height: 15rem;
+    position: relative;
+    background-color:rgb(255, 165, 0);
+    display: inline-block;
+    margin: 0 1rem;
+
+}
+
+.e{
+    position: absolute;
+    width: 85%;
+    height: 8rem;
+   
+    background-color:rgb(245, 135, 45);
+    display: inline-block;
+    margin: 0 1rem;
+
+}
+
+.box3{
+    width: 18%;
+    height: 10rem;
+    position: relative;
+    background-color:rgb(35, 59, 139);
+    display: inline-block;
+    margin: 0 1rem;
+
+}
+
+.f{
+    position: absolute;
+    width: 85%;
+    height: 8rem;
+   
+    background-color:mediumslateblue;
+    display: inline-block;
+    margin: 0 1rem;
+
+}

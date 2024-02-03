@@ -1,0 +1,46 @@
+ <li> <a href="#"></a></li> 
+ <li> <a href="#">Our Expertise</a>
+            <ul>
+                <li> <a href="#">Brain Injury Care</a></li>
+                <li> <a href="#">Cardiac Care</a></li>
+                <li> <a href="#"></a>Therapy and Rehabilitation</li>
+                <li> <a href="#"></a>Clinical Trials</li>
+            </ul>
+        </li>
+        .homepage
+{
+    background-image: url(/icon/bg4.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    filter: blur(0.5px);
+}
+ .nav
+{
+    background-color: rgb(85, 154, 219);
+    overflow: hidden;
+}
+.nav a
+{
+  float: right;
+    color: white;
+    padding: 1rem 1rem;
+   
+    font-size: 20px;
+    
+}
+.nav a:hover
+{
+background-color: white;
+color: rgb(58, 49, 117);
+}
+Only Full Time
+Specialist
+System
+/icon/stethoscope.svg"
+.services
+{
+    height: 100vh;
+    background-color: black;
+}

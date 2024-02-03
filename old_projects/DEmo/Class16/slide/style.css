@@ -1,0 +1,36 @@
+body
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gslide
+{
+    background-color: rgb(197, 241, 241);
+    width: 90%;
+    height: 90vh;
+    position: relative;
+    margin: 0 auto;    
+}
+#imgcon
+{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/img1.jpg);
+}
+.btn
+{
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#nbtn
+{
+    right: 0;
+}
+#pbtn
+{
+    left: 0;
+}

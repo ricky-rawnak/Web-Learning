@@ -1,0 +1,212 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-CSS</title>
+
+    <style>
+        body {
+            background-color: rgb(211, 210, 208);
+            /* background-image: url('img/abstract.jpg'); */
+            background-attachment: fixed;
+            /* background-size: cover; */
+            background-size: 100% 100%;
+        }
+
+        p {
+            color: rgb(5, 101, 197);
+            font-size: 35px;
+            border: 2px solid black;
+            padding: 30px;
+        }
+
+        h3 {
+            border: 4px dashed violet;
+            margin: 50px;
+        }
+
+        a:link {
+            font-size: 30px;
+            color: green;
+            background-color: red;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: rgb(75, 9, 20);
+            background-color: chartreuse;
+            text-decoration: dotted;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        img {
+            width: 50%;
+        }
+
+
+        table,
+        th,
+        td {
+            border: 1px solid;
+            border-radius: 10px;
+            border-style: dotted;
+            border-color: rgb(0, 0, 0);
+            border-collapse: collapse;
+        }
+
+        tr:hover {
+            background-color: chartreuse;
+        }
+      
+
+
+    </style>
+
+</head>
+
+<body>
+    <a href="index.html">Index</a>
+    <a href="link.html">Link</a>
+
+    <!-- CSS -->
+
+    <p style="font-size: 30px;"><mark>CSS</mark></p>
+
+
+    <h1 style="color: green;">Inline - by using the style attribute inside HTML elements</h1>
+    <p>Internal - by using a style element in the head section</p>
+    <h2>External - by using a link element to link to an external CSS file</h2>
+
+    <p>This is paragraph 1</p>
+    <p>This is paragraph 2</p>
+    <p>This is paragraph 3</p>
+    <p>A padding is the (space) between the text and the border.</p>
+
+    <h3>Margin property defines a margin (space) outside the border</h3>
+
+    <!-- Color Links -->
+
+    <p style="font-size: 30px;"><mark>Color Links</mark></p>
+
+    <a href="img/painting.jpg" target="_blank">Html images</a>
+    <a class="btn" href="img/painting.jpg" target="_blank">Button</a>
+
+    <!-- images -->
+    <p style="font-size: 30px;"><mark>Images</mark></p>
+
+    <img src="img/painting 3.jpg" alt="painting of sky 3" style="width: 300px;height: 400px;">
+    <a href="https://www.google.com"><img src="img/avacado.webp" alt="image alternate text" width="500"
+            height="300"></a>
+
+
+    <h2>Background Cover</h2>
+
+    <p>Set the background-size property to "cover" and the background image will cover the entire element, in this case
+        the body element.</p>
+
+
+    <!-- tables -->
+    <p style="font-size: 30px;"><mark>Tables</mark></p>
+
+    <table style="width: 100%;">
+        <tr>
+            <th style="width: 80%;">Table Info</th>
+            <th>Short cut</th>
+
+        </tr>
+        <tr style="height: 200px;">
+            <td>TD elements define table cells</td>
+            <td>td</td>
+        </tr>
+        <tr>
+            <td>TR elements define table rows</td>
+            <td>tr</td>
+
+        </tr>
+        <tr>
+            <td>TH elements define table headers</td>
+            <td>th</td>
+        </tr>
+    </table>
+
+    <p> Vertical table headers</p>
+    <table style="width: 100%;">
+        <tr>
+            <th>First name</th>
+            <td>Jill</td>
+            <td>Eve</td>
+        </tr>
+        <tr>
+            <th>Last name</th>
+            <td>Smith</td>
+            <td>Loua</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>24</td>
+            <td>19</td>
+        </tr>
+    </table>
+
+    <table style="width: 100%;">
+        <tr>
+            <th>Name</th>
+            <td>Jill</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>123-453</td>
+        </tr>
+        <tr>
+            <td>454-245</td>
+        </tr>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

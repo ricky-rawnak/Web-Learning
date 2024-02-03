@@ -1,0 +1,53 @@
+h1
+{
+    font-size: 60px;
+}
+h2
+{
+font-size: 40px;
+background-color: rgb(161, 144, 144);
+}
+h3
+{
+    font-size: 30px;
+    background-color: salmon;
+}
+.abc
+{
+   color: rgb(7, 89, 104);
+}
+.xyz
+{
+   color: rgb(17, 75, 43);
+}
+#id1
+{
+    color: rgb(100, 17, 34);
+    background-color: seagreen;
+}
+
+.box1
+{
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    background-color: yellow;
+}
+.box2
+{
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    background-color: rgb(74, 71, 255);
+    display: inline-block;
+   
+}
+.box3
+{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    
+    display: box;
+    background-color: darkcyan;
+}

@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="w3schools HTML Tutorial">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="Ricky Rawnak">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <base href="www.google.com" target="_blank">
+    <title>HTML-Basic</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <style>
+        table {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            /* border: 1px solid black; */
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            text-align: left;
+            padding: 8px;
+        }
+
+        /* 
+        tr:nth-child(even) {
+            background-color: rgb(176, 127, 255);
+        } */
+        .city {
+            background-color: palevioletred;
+            color: white;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .note {
+            font-size: 120%;
+            color: red;
+        }
+
+        .country {
+            background-color: tomato;
+            color: wheat;
+            padding: 10px;
+        }
+
+        .food {
+            background-color: indianred;
+            color: wheat;
+            padding: 10px;
+        }
+
+        .main {
+            text-align: center;
+        }
+
+        #myheader {
+            background-color: lightblue;
+            color: crimson;
+            padding: 40px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <a href="css.html">CSS</a>
+    <a href="link.html">Link</a>
+    <!-- <body style="background-color:rgb(0, 255, 179);"> -->
+
+    <!-- heading -->
+    <hr>
+    <hr>
+    <p style="font-size: 50px;"><mark>Heading</mark></p>
+    <h1 style="background-color: red;"> This is heading 1 with red background</h1>
+    <h2 style="font-size: 60px;"> This is heading 2 with 60px font</h2>
+    <h3 style="color:brown;"> This is heading 3 with brown text</h3>
+    <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> This is heading 4 with Segoe font family
+    </h4>
+    <h5 style="font-size:160%;"> This is heading 5 with 160% font size</h5>
+    <h6> This is heading 6</h6>
+    <hr>
+    <h2 style="text-align: center;">Centered text h2</h2>
+    <hr>
+    <hr>
+    <!-- paragraph -->
+
+
+    <p style="font-size: 50px;"><mark>Paragraph</mark></p>
+    <p title="Tooltip by hovering"> This is paragraph which has a tooltip<br></p>
+    <p title="John 'walk' Rite"> Single double qoute paragraph<br></p>
+    <p><br> This is another paragraph<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto vero
+        blanditiis, quidem et, temporibus placeat alias veniam enim dolorum dolor, dignissimos voluptatibus corrupti id
+        perferendis! Molestias excepturi neque nisi quam?</p>
+    <p style="color: crimson;">Crimson paragraph</p>
+    <p>
+        This paragraph
+        contains a lot of lines
+        in the source code,
+        but the browser
+        ignores it.
+    </p>
+    <p>
+        Twinkle Twinkle
+        Little star
+        How I wonder what you are
+    </p>
+    <hr>
+    <p>
+        My Bonnie lies over the ocean.
+
+        My Bonnie lies over the sea.
+
+        My Bonnie lies over the ocean.
+
+        Oh, bring back my Bonnie to me.
+    </p>
+    <hr>
+
+    <!--preserve paragraph -->
+
+    <pre>
+    Twinkle Twinkle
+    Little      star
+            How I       wonder what you     are
+</pre>
+    <hr>
+
+    <a href="https://www.google.com"> google</a>
+    <hr>
+
+    <img src="img/black_chair.jpg" alt="Chair" width="120" height="180">
+    <hr>
+
+    <!-- style -->
+
+
+    <p style="font-size: 50px;"><mark>Style</mark></p>
+
+    <p>Normal</p>
+    <p style="color:red;">Red</p>
+    <p style="color:blue;">Blue</p>
+    <p style="color:palevioletred;">Pink</p>
+    <p style="font-size:50px;">Big 50px</p>
+
+    <hr>
+    <hr>
+    <!-- Formatting -->
+
+    <p style="font-size: 50px;"><mark>Formatting</mark></p>
+
+    <p><b>This is bold text</b></p>
+    <p><i>This is italic text</i></p>
+    <p>This is<sub>subscript</sub> and <sup>superscript</sup></p>
+
+
+    <p style="font-size:20px;">
+        This will show all Formatting<br><br>
+        <b>b for bold text</b><br>
+        <strong>strong for important text</strong><br>
+        <em>em for emphasized text</em><br>
+        <mark>mark is used for marked text</mark><br>
+        <small>small for smaller text</small><br>
+        <del>Del for Deleted text</del><br>
+        <ins>ins for Inserted text</ins><br>
+
+    </p>
+    <hr>
+    <hr>
+    <!-- Quotation and Citation -->
+
+    <p style="font-size: 50px;"><mark>Quotation and Citation</mark></p>
+
+    <p>This is a quote</p>
+    <blockquote cite="https://www.worldwildlife.org/about">WWF connects cutting-edge conservation science with the
+        collective power of our partners in the field, more than one million supporters in the United States and five
+        million globally, as well as partnerships with communities, companies, and governments. </blockquote>
+    <p>Short quote <q>Today, human activities put more pressure on nature than ever before, but it’s also people who
+            have the power to change this trajectory.</q></p>
+    <p>The <abbr title="Abbreviations">abbr</abbr> is used for Abbreviations</p>
+    <p>This is address:</p>
+    <address>
+        written by: Aden Kyle<br>
+        visit us at:<br>
+        example.com<br>
+        Box 765, Disney<br>
+        USA
+
+    </address>
+
+    <img src="img/painting.jpg">
+    <p><cite>The cite</cite> is used for citation 2024</p>
+    <p>Bi directional override(bdo): right to left(rtl) using bdo dir<br></p>
+    <bdo dir="rtl">Hi my name is ricky</bdo>
+
+    <hr>
+    <hr>
+    <!-- Colors -->
+
+    <p style="font-size: 50px;"><mark>Colors</mark></p>
+
+    <h2 style="background-color: tomato;">Tomato</h2>
+    <h2 style="background-color: orange;">orange</h2>
+    <h2 style="background-color: dodgerblue;">dodgerblue</h2>
+    <h2 style="background-color: mediumseagreen;">mediumseagreen</h2>
+    <h2 style="background-color: gray;">gray</h2>
+    <h2 style="background-color: slateblue;">slateblue</h2>
+    <h2 style="background-color: violet;">violet</h2>
+    <h2 style="background-color: lightgray;">lightgray</h2>
+
+
+    <h1 style="background-color: dodgerblue;">Background color</h1>
+    <p style="background-color: tomato;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+        euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+        commodo consequat.</p>
+
+
+    <h3 style="color: tomato;">Text color tomato</h3>
+    <p style="color: dodgerblue;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+        euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+        commodo consequat.</p>
+    <p style="color: mediumseagreen;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+        euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+        commodo consequat.</p>
+
+    <h1 style="border: 2px solid tomato;">Heading border 2</h1>
+    <h1 style="border: 6px solid dodgerblue;">Heading border 6</h1>
+    <h1 style="border: 10px solid mediumseagreen;">Heading border 10</h1>
+    <h1 style="border: 20px solid violet;">Heading border 20</h1>
+
+    <h1 style="color: rgb(106,100,205);">RGB COLOR (RED,GREEN,BLUE)</h1>
+    <h1 style="color: rgb(255,0,0);">RGB COLOR (255,0,0) for red</h1>
+    <h1 style="color: rgb(0,0,255);">RGB COLOR (0,0,255) for blue</h1>
+    <h1 style="color: rgb(0,0,0);">RGB COLOR all 0 for black, all 255 for white</h1>
+
+
+    <h1 style="color: hsla(0,100%,50%,0.5);">HSLA COLOR (hue,saturation,transparency,lightness)</h1>
+    <h1 style="color: hsl(0,100%,50%);">HSL COLOR (hue,saturation%,lightness%) </h1>
+
+    <hr>
+    <hr>
+
+    <!-- link -->
+
+    <p style="font-size: 50px;"><mark>Links</mark></p>
+
+    <p><a href="https://www.w3schools.com/">Visit w5schools</a></p>
+    <a href="https://www.google.com/" target="_blank">Visit google</a>
+    <p>If target="_blank", the link will open in a new browser window or tab.</p>
+    <p><a href="img/painting.jpg">HTML image from local</a></p>
+    <a href="https://www.google.com/">
+        <img src="img/black_chair.jpg" alt="Links" style="width:42px;height:42px;">
+    </a>
+    <a href="mailto:xyz@example.com">Send Email</a>
+
+    <button onclick="window.location='https://www.w3schools.com/'">Click the button</button>
+    <a href="https://www.w3schools.com/" title="Its a title">Hover the link</a>
+
+    <a href="default.html">Visit our HTML tutorial.</a>
+
+    <p><a href="#c4">Bookmark c4</a></p><br>
+    <p><a href="#c9">Bookmark c9</a></p><br>
+    <p><a href="#mytext">Bookmark mytest</a></p><br>
+
+    <p>jumped to c4</p><br>
+    <p>jumped to c4</p><br>
+    <p>jumped to c4</p><br>
+    <p>jumped to c4</p><br>
+    <p id="c4">jumped to c4</p><br>
+    <p>jumped to c4</p><br>
+    <p>jumped to c4</p><br>
+    <p>jumped to c4</p><br>
+    <p>jumped to c4</p><br>
+    <p id="c9">jumped to c9</p><br>
+    <p>jumped to c4</p><br>
+    <p>jumped to c4</p><br>
+    <p>jumped to c4</p><br>
+    <p>jumped to c4</p><br>
+    <a href="#mytext">Jump to new text </a>
+
+    <hr>
+
+
+    <hr>
+
+    <!-- images -->
+
+    <p style="font-size: 50px;"><mark>Images</mark></p>
+
+    <img src="img/painting 2.jpg" alt="painting of sky" width="500" height="333">
+    <img src="img/painting 2.jpg" alt="painting of sky" style="width: 500px;height: 600px;">
+
+    <h2>Floating images</h2>
+    <p><strong>Float the image to right: </strong></p>
+    <p><img src="img/avacado.webp" alt="avacado" style="float: right;width: 42px;height: 42px;">A paragraph with a
+        floating image. A paragraph with a floating image. A paragraph with a floating image.</p>
+
+    <p><strong>Float the image to left: </strong></p>
+    <p><img src="img/avacado.webp" alt="avacado" style="float: left;width: 42px;height: 42px;">A paragraph with a
+        floating image. A paragraph with a floating image. A paragraph with a floating image.</p>
+
+    <area shape="default" href="link.html">
+    <p style="background-image:url('img/black_chair.jpg') "></p>
+
+    <h2>Image maps</h2>
+    <p>Click on coffee,phone,laptop</p>
+    <img src="img/map.jpg" alt="workplace" usemap="#workmap" width="400" height="379">
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350"
+            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.thewirecutter.com%2Fwp-content%2Fmedia%2F2023%2F06%2Flaptops-2048px-5607.jpg%3Fauto%3Dwebp%26quality%3D75%26crop%3D1.91%3A1%26width%3D1200&tbnid=VWWOclY1-SN1AM&vet=12ahUKEwig6Jzbw_2DAxXvRmwGHWjACxoQMygGegQIARB5..i&imgrefurl=https%3A%2F%2Fwww.nytimes.com%2Fwirecutter%2Freviews%2Fbest-laptops%2F&docid=bCRo6qqk06R8zM&w=1200&h=628&itg=1&q=laptop&ved=2ahUKEwig6Jzbw_2DAxXvRmwGHWjACxoQMygGegQIARB5"
+            alt="computer">
+        <area shape="rect" coords="290,172,333,250" href="https://www.gooogle.com" alt="phone">
+        <area shape="circle" coords="337,300,44"
+            href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fneurosciencenews.com%2Fcoffee-readiness-caffeine-23543%2F&psig=AOvVaw0ioQ0ve_3E10OgyU3F_xue&ust=1706443766846000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKDd1MzE_YMDFQAAAAAdAAAAABAD"
+            alt="coffee">
+    </map>
+
+
+    <h2>Background Image /h2>
+        <p>A background image for a p element:</p>
+        <p style="background-repeat: no-repeat; background-image: url('img/ocean.jpg');">You can specify background
+            images<br>
+            for any visible HTML element.<br>
+            In this example, the background image<br>
+            is specified for a p element.<br>
+            By default, the background-image<br>
+            will repeat itself in the direction(s)<br>
+            where it is smaller than the element<br>
+            where it is specified. Try resizing the<br>
+            browser window to see how the<br>
+            background image behaves.</p>
+
+
+        <h2>Image resizing</h2>
+        <picture>
+            <source media="(min-width:250px)" srcset="painting.jpg">
+            <source media="(min-width:365px)" srcset="painting 2.jpg">
+            <img src="img/black_chair.jpg" style="width:auto;">
+        </picture>
+
+        <p>Resize the browser to see different versions of the picture loading at different viewport sizes.
+            The browser looks for the first source element where the media query matches the user's current viewport
+            width,
+            and fetches the image specified in the srcset attribute.</p>
+
+        <p>The img element is required as the last child tag of the picture declaration block.
+            The img element is used to provide backward compatibility for browsers that do not support the picture
+            element, or if none of the source tags matched.
+        </p>
+
+        <hr>
+
+
+        <hr>
+
+        <!-- Favicon -->
+
+        <p style="font-size: 50px;"><mark>Favicon</mark></p>
+        <p>Added in link section with title</p>
+
+
+        <hr>
+
+
+        <hr>
+
+        <!-- Tables -->
+
+        <p style="font-size: 50px;"><mark>Tables</mark></p>
+
+        <table>
+            <tr>
+                <th>Table Info</th>
+                <th>Short cut</th>
+            </tr>
+            <tr>
+                <td>TD elements define table cells</td>
+                <td>td</td>
+            </tr>
+            <tr>
+                <td>TR elements define table rows</td>
+                <td>tr</td>
+
+            </tr>
+            <tr>
+                <td>TH elements define table headers</td>
+                <td>th</td>
+            </tr>
+        </table>
+
+        <table>
+
+            <caption>Names</caption>
+            <colgroup>
+                <col span="2" style="background-color: rgb(250, 205, 205);">
+                <col style="background-color: rgb(175, 240, 202);">
+
+            </colgroup>
+            <thead style="color: rgb(74, 92, 255)">
+                <tr>
+                    <th>THead</th>
+                    <th>Title</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody style="color: rgb(226, 74, 68)">
+                <tr>
+                    <td>Tbody</td>
+                    <td>My first HTML</td>
+                    <td>$53</td>
+                </tr>
+                <tr>
+                    <td>Tbody</td>
+                    <td>My first HTML</td>
+                    <td>$53</td>
+                </tr>
+                <tr>
+                    <td>Tbody</td>
+                    <td>My first HTML</td>
+                    <td>$53</td>
+                </tr>
+            </tbody>
+            <tfoot style="color: green">
+                <tr>
+                    <td>Tfoot</td>
+                    <td>My first CSS</td>
+                    <td>$49</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <hr>
+
+
+        <hr>
+
+        <!-- List -->
+
+        <p style="font-size: 50px;"><mark>List</mark></p>
+
+        <h3>Unordered list (ul)</h3>
+        <ul>
+            <li>coffee</li>
+            <li>tea</li>
+            <li>milk</li>
+        </ul>
+
+        <h3>Ordered list (ol)</h3>
+        <ol>
+            <li>coffee</li>
+            <li>tea</li>
+            <li>milk</li>
+        </ol>
+
+        <h2>Description list dl,dt,dd</h2>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- Black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- White cold drink</dd>
+        </dl>
+
+        <h2>Unordered HTML List</h2>
+        <ul style="list-style-type: square;">
+            <li>coffee</li>
+            <li>tea</li>
+            <li>milk</li>
+        </ul>
+
+        <ul style="list-style-type: circle;">
+            <li>coffee</li>
+            <li>tea</li>
+            <li>milk</li>
+        </ul>
+
+        <ul style="list-style-type: square;">
+            <li>coffee</li>
+            <li>tea
+                <ul>
+                    <li>Black tea</li>
+                    <li>Green tea</li>
+                </ul>
+
+            </li>
+            <li>milk</li>
+        </ul>
+
+        <h3>Ordered list Type="1"</h3>
+        <ol type="1">
+            <li>coffee</li>
+            <li>tea</li>
+            <li>milk</li>
+        </ol>
+        <h3>Ordered list Type="A"</h3>
+        <ol type="A">
+            <li>coffee</li>
+            <li>tea</li>
+            <li>milk</li>
+        </ol>
+        <h3>Ordered list Type="a"</h3>
+        <ol type="a">
+            <li>coffee</li>
+            <li>tea</li>
+            <li>milk</li>
+        </ol>
+        <h3>Ordered list Type="I"</h3>
+        <ol type="I">
+            <li>coffee</li>
+            <li>tea</li>
+            <li>milk</li>
+        </ol>
+        <h3>Ordered list Type="i"</h3>
+        <ol type="i">
+            <li>coffee</li>
+            <li>tea</li>
+            <li>milk</li>
+        </ol>
+        <h3>Ordered list Control</h3>
+        <ol start="30">
+            <li>coffee</li>
+            <li>tea</li>
+            <li>milk</li>
+        </ol>
+        <ol type="I" start="30">
+            <li>coffee</li>
+            <li>tea</li>
+            <li>milk</li>
+        </ol>
+
+        <hr>
+
+
+        <hr>
+
+        <!-- Block and inline -->
+
+        <p style="font-size: 50px;"><mark>Block and inline</mark></p>
+
+
+        <p>A block-level(p,div) element always starts on a new line, and the browsers automatically add some space (a
+            margin) before and after the element.</p>
+        <p>An inline element(span) does not start on a new line.
+            An inline element only takes up as much width as necessary.</p>
+
+
+        <div style="border: 1px solid blue;">This is a div</div>
+        <p> This is <span style="border: 1px solid black;">Span</span></p>
+
+        <div style="background-color: black; color: white; padding: 20px;">
+            <h2>London</h2>
+            <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a
+                metropolitan area of over 13 million inhabitants.</p>
+            <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going
+                back to its founding by the Romans, who named it Londinium.</p>
+        </div>
+
+
+        <p>I have a <span style="color: blue;">Blue</span> Box</p>
+
+
+
+        <hr>
+
+
+        <hr>
+
+        <!-- Div Element -->
+
+        <p style="font-size: 50px;"><mark>Div Element and inline</mark></p>
+
+
+        This is a<div style="background-color: cadetblue;">I am a div</div>Statement
+
+
+        <h2>Div center </h2>
+        <div style="width: 300px; margin: auto; background-color: darkkhaki;">
+            <h3>London</h3>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+        </div>
+
+        <h2>Multiple div</h2>
+
+        <div style="background-color: pink;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+        </div>
+
+        <div style="background-color: rgb(95, 238, 90);">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+        </div>
+
+        <div style="background-color: rgb(141, 126, 207);">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+        </div>
+
+
+        <h2>Inline-block div</h2>
+
+        <div style="background-color: pink; width: 30%; display: inline-block;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+        </div>
+
+        <div style="background-color: rgb(95, 238, 90); width: 30%; display: inline-block;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+        </div>
+
+        <div style="background-color: rgb(141, 126, 207); width: 30%; display: inline-block;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+        </div>
+
+        <hr>
+
+
+        <hr>
+
+        <!-- class Attribute -->
+
+        <p style="font-size: 50px;"><mark>class Attribute</mark></p>
+
+        <div class="city">
+            <h2>Class</h2>
+            <p>class is styled by .classname </p>
+        </div>
+        <div class="city">
+            <h2>Paris</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="city">
+            <h2>London</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="city">
+            <h2>Tokyo</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+
+        <h2>My <span class="note">Span class</span> is important of heading</h2>
+        <p>MY <span class="note">Span class</span> of paragraph</p>
+
+        <h2 class="country">Egypt</h2>
+        <p>Egypt has pyramids</p>
+
+        <h2 class="country">France</h2>
+        <p>France has tower</p>
+
+        <h2 class="country">Turkey</h2>
+        <p>Turkey has cats</p>
+
+        <h2>Multiple class</h2>
+        <h2 class="food main">Rice</h2>
+        <h2 class="food">Vegetable</h2>
+        <h2 class="food">Chicken</h2>
+
+
+        <h1>Use of The class Attribute in JavaScript</h1>
+        <button onclick="myfunction()">Hide elements </button>
+
+        <div class="cit">
+            <h2>Class</h2>
+            <p>class is styled by .classname </p>
+        </div>
+        <div class="cit">
+            <h2>Paris</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="cit">
+            <h2>London</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="cit">
+            <h2>Tokyo</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+
+
+        <hr>
+
+
+        <hr>
+
+        <!-- ID -->
+
+        <p style="font-size: 50px;"><mark>ID</mark></p>
+
+        <h2 id="myheader">Id name must only be used by one HTML element within the page</h2>
+        <button onclick="displayResult()">Click to change text</button>
+
+
+        <hr>
+
+
+        <hr>
+
+        <!-- Iframes -->
+
+        <p style="font-size: 50px;"><mark>Iframes</mark></p>
+
+        <p>You can use the height and width attributes to specify the size of the iframe</p>
+        <iframe src="./link.html" height="200" width="600" title="iframe Example"></iframe>
+
+        <p>Remove border</p>
+        <iframe src="./link.html" style="border: none;" title="iframe Example"></iframe>
+
+        <p>Change the size</p>
+        <iframe src="./link.html" style="border: 2px solid palevioletred;" title="iframe Example"></iframe>
+
+        <p>Target for a Link</p>
+        <iframe src="./css.html" name="iframe_a" height="200" width="100%" title="iframe Example"
+            title="iframe Example"></iframe>
+        <p><a href="./bg.html" target="iframe_a">click here</a></p>
+
+        <hr>
+
+
+        <hr>
+        <!-- JavaScript -->
+
+        <p style="font-size: 50px;"><mark>JavaScript</mark></p>
+
+        <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">Click here to display Date and
+            time</button>
+        <p id="demo"></p>
+
+
+        <p>This example writes "Hi this is ricky" into an HTML element with id="ricky". Try changing innerHTML from
+            script</p>
+        <p id="ricky"></p>
+
+        <p>JavaScript can change the content of an HTML element:</p>
+
+        <button type="button" onclick="myFunctionBtn()">Click Me!</button>
+        <p id="demo1">This will change after clicking button</p>
+
+        <p id="demo2">Styles will be added here</p>
+        <button type="button" onclick="myFunctionBtn1()">Change style</button>
+
+
+        <h1>Lights</h1>
+        <p>Here, a JavaScript changes the value of the src (source) attribute of an image</p>
+        <img id="myimg" src="img/pic_bulboff.gif" alt="Lights" width="150" height="220">
+        <p>
+            <button type="button" onclick="light(1)">Light ON</button>
+            <button type="button" onclick="light(0)">Light OFF</button>
+        </p>
+
+
+
+        <hr>
+
+
+        <hr>
+        <!-- <base> Element -->
+
+
+        <p style="font-size: 50px;"><mark>Base Element</mark></p>
+
+        <p><img src="img/stickman.gif" width="32" height="46" alt="stickman"> - Notice that we have only specified a
+            relative address for the image. Since we have specified a base URL in the head section, the browser will
+            look for the image at mentioned url </p>
+
+        <hr>
+
+
+        <hr>
+
+        <!-- Responsive -->
+
+
+        <p style="font-size: 50px;"><mark>Responsive</mark></p>
+
+        <img src="img/img_girl.jpg" style="width: 100%;">
+
+        <img src="img/black_chair.jpg" style="width: 100%;height: auto;">
+
+
+        <h1 style="font-size: 10vw;">Show Different Images Depending on Browser Width</h1>
+        <p style="font: 10vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport
+            width.</p>
+        <p>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.
+        </p>
+        <picture>
+            <source srcset="img/abstract.jpg" media="(max-width:600px)">
+            <source srcset="img/ocean.jpg" media="(max-width:1500px)">
+            <source srcset="img/ocean.jpg">
+            <img src="img/ocean.jpg" style="width: auto;">
+        </picture>
+
+        <hr>
+
+
+        <hr>
+
+        <!-- Computer Code -->
+
+
+        <p style="font-size: 50px;"><mark>Computer Code</mark></p>
+
+        <p> x=5;
+            y=3;
+            z=x+y;</p>
+        <code>
+            x=5;
+            y=3;
+            z=x+y;
+        </code>
+        <pre>
+        <code>
+            x=5;
+            y=3;
+            z=x+y;
+        </code>
+        </pre>
+
+        <h2>The kbd Element</h2>
+
+        <p>The kbd element is used to define keyboard input <kbd>ctrl+S</kbd></kbd></p>
+
+        <h2>The samp Element</h2>
+
+        <p>The samp element is used to define sample output from a computer program.</p>
+        <p><samp>File not found<br>Press enter</samp></p>
+
+        <h2>The var Element</h2>
+        <p>The area of triangle is: 1/2 x <var> b</var> x <var>h</var> where <var>b</var> is base and <var>h</var> is
+            height </p>
+
+
+        <hr>
+
+
+        <hr>
+        <!-- Semantic Elements -->
+
+
+        <p style="font-size: 50px;"><mark>Semantic Elements</mark></p>
+
+        <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a
+            great summer together with my family!</p>
+        <aside
+            style="width: 30%;padding-left: 15px;margin-left: 15px; float: right; font-style: italic; background-color: rgb(190, 187, 187);">
+            <h4>Epcot Center</h4>
+            <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international
+                pavilions, award-winning fireworks and seasonal special events.</p>
+        </aside>
+        <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a
+            great summer together with my family!</p>
+        <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a
+            great summer together with my family!</p>
+
+        <h2>Figure</h2>
+        <p>Puglia's most famous sight is the unique conical houses (Trulli) found in the area around Alberobello, a
+            declared UNESCO World Heritage Site.</p>
+        <figure>
+            <img src="img/painting 2.jpg" alt="ok" style="width: 100%;">
+            <figcaption>Fig.1 - painting </figcaption>
+        </figure>
+
+
+        <hr>
+
+
+        <hr>
+
+
+        <!-- Emoji -->
+
+
+        <p style="font-size: 50px;"><mark>Emoji</mark></p>
+
+        <h2>&#128514;</h2>
+        <h2>&#128507;</h2>
+        <h2>&#128510;</h2>
+        <h2>&#128151;</h2>
+
+
+        <hr>
+
+
+        <hr>
+
+
+        <!-- Form -->
+
+
+        <p style="font-size: 50px;"><mark>Form</mark></p>
+
+        <h2>Form label/input</h2>
+        <form action="/Responsive web.html" method="get">
+            <label for="fname">first name:</label><br>
+            <input type="text" id="fname" value="ricky"><br>
+
+            <label for="lname">last name:</label><br>
+            <input type="text" id="lname" value="chy"><br>
+
+            <input type="submit" value="submit">
+            <input type="button" value="ok">
+        </form>
+
+        <h2>Radio</h2>
+        <p>Favourite language:</p>
+        <form>
+            <input type="radio" id="html" name="f_lang" value="HTML">
+            <label for="html">HTML</label><br>
+
+            <input type="radio" id="css" name="f_lang" value="CSS">
+            <label for="css">CSS</label><br>
+
+            <input type="radio" id="js" name="f_lang" value="JS">
+            <label for="js">JS</label><br>
+        </form>
+
+        <h2>Checkbox</h2>
+        <form>
+            <input type="checkbox" name="v1" id="v1" value="Bike">
+            <label for="v1">I have a Bike</label><br>
+
+            <input type="checkbox" name="v2" id="v2" value="Car">
+            <label for="v2">I have a Car</label><br>
+
+            <input type="checkbox" name="v3" id="v3" value="Boat">
+            <label for="v3">I have a boat</label><br>
+
+        </form>
+
+        <h2>The select Element</h2>
+        <form action="/responsive menu.html">
+            <label for="cars">Choose a car: </label>
+            <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+            <input type="submit">
+        </form>
+
+
+        <h2>The selected Element</h2>
+        <form action="/responsive menu.html">
+            <label for="cars">Choose a car: </label>
+            <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab" selected>Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+            <input type="submit">
+        </form>
+
+        <h2>The Visible selected Element</h2>
+        <form action="/responsive menu.html">
+            <label for="cars">Choose a car: </label>
+            <select name="cars" id="cars" size="3">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+            <input type="submit">
+        </form>
+
+
+        <h2>The Multiple Selections</h2>
+        <form action="/responsive menu.html">
+            <label for="cars">Choose a car: </label>
+            <select name="cars" id="cars" size="4" multiple>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+            <input type="submit">
+        </form>
+
+        <h2>Textarea </h2>
+        <form action="/css.html">
+            <textarea name="msg" rows="10" cols="30">This is a text area</textarea>
+            <input type="submit">
+        </form>
+
+        <h2>Button </h2>
+        <button type="button" onclick="alert('Button is clicked')">Click here</button>
+
+        <h2>Grouping Form Data with Fieldset</h2>
+        <form action="/Responsive web.html">
+            <fieldset>
+                <legend>Personalia</legend>
+                <label for="fname">first name:</label><br>
+                <input type="text" id="fname" value="ricky"><br>
+
+                <label for="lname">last name:</label><br>
+                <input type="text" id="lname" value="chy"><br>
+
+                <input type="submit" value="submit">
+            </fieldset>
+        </form>
+
+        <h2>output Element</h2>
+        <form action="/Responsive web.html" oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+            <input type="range" id="a" name="a" value="50">100+
+            <input type="number" id="b" name="b" value="50">=
+            <output name="x" for="a,b"></output>
+            <br><br>
+            <input type="submit" value="submit">
+
+        </form>
+
+
+        <hr>
+
+
+        <hr>
+
+
+        <!-- Input -->
+
+
+        <p style="font-size: 50px;"><mark>Input</mark></p>
+
+
+        <form action="/bg.html">
+            <label for="favcolor">Select fav color</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="birthday"><br>
+
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required><br>
+
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="pwd"><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>
+        <br><br>
+        <form action="/bg.html">
+            <label for="btime">Birthday date and time</label>
+            <input type="datetime-local" id="btime" name="btime">
+
+            <label for="email">email</label>
+            <input type="email" id="email" name="email">
+
+            <label for="myfile">Select a file</label>
+            <input type="file" id="file" name="file">
+
+            <input type="submit" value="submit">
+        </form>
+
+
+
+        <hr>
+
+
+        <hr>
+
+
+        <!-- Input Attributes-->
+
+
+        <p style="font-size: 50px;"><mark>Input Attributes</mark></p>
+
+        <h2>Readonly</h2>
+        <form>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" value="Aden" readonly><br>
+
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lname" value="Jonas">
+        </form>
+
+        <h2>Disabled</h2>
+        <form>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" value="Aden" disabled><br>
+
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lname" value="Jonas">
+        </form>
+
+        <h2>Size</h2>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" size="50"><br>
+
+            <label for="pin">PIN</label><br>
+            <input type="text" id="pin" name="pin" size="4">
+        </form>
+
+        <h2>Max length</h2>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" size="50" autofocus><br>
+
+            <label for="pin">PIN</label><br>
+            <input type="text" id="pin" name="pin" maxlength="4" size="4">
+        </form>
+
+        <h2>Min-Max</h2>
+        <form>
+            <label for="datemax">Enter a date before 1995-01-01</label><br>
+            <input type="date" id="datemax" name="datemax" max="1994-12-31"><br><br>
+
+            <label for="datemin">Enter a after 2005-01-01</label><br>
+            <input type="date" id="datemin" name="datemin" max="2000-01-02"><br><br>
+
+            <label for="quantity">Quantity</label><br>
+            <input type="number" name="quantity" id="quantity" min="1" max="5"><br><br>
+
+            <label for="files">Files</label><br>
+            <input type="file" name="file" id="files" multiple><br><br>
+
+            <label for="points">Points</label><br>
+            <input type="number" name="points" id="points" step="5"><br><br>
+
+            <label for="phone"> Enter a phone number:</label><br>
+            <input type="tel" name="phone" id="phone" placeholder="880-123-12-3431"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{4}"><br><br>
+
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+                <option value="Edge"></option>
+                <option value="Firefox"></option>
+                <option value="Chrome"></option>
+                <option value="Opera"></option>
+                <option value="Safari"></option>
+            </datalist>
+
+            <input type="image" src="/img/img_submit.gif" width="48" height="48">
+
+        </form>
+
+
+        <hr>
+
+
+        <hr>
+
+
+        <!-- Canvas-->
+
+
+        <p style="font-size: 50px;"><mark>Canvas</mark></p>
+
+        <canvas id="myCan" width="200" height="100" style="border: 1px solid red;">Your browser does not support the
+            HTML canvas tag.</canvas>
+
+        <canvas id="myCan2" width="200" height="100" style="border: 1px solid greenyellow;">Your browser does not
+            support the HTML canvas tag.</canvas>
+
+        <canvas id="myCan3" width="200" height="100" style="border: 1px solid red;">Your browser does not support the
+            HTML canvas tag.</canvas>
+
+        <svg width="300" height="200">
+            <polygon points="100,10 40,198 190,78 10,78 160,198"
+                style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+            Sorry, your browser does not support inline SVG.
+        </svg>
+
+
+        <hr>
+
+
+        <hr>
+
+
+        <!-- Media-->
+
+
+        <p style="font-size: 50px;"><mark>Media</mark></p>
+
+        <video width="320" height="240" controls>
+        <!-- <video width="320" height="240" autoplay> -->
+        <source src="img/mov_bbb.mp4" type="video/mp4">
+        </video>
+
+        <h2>play,pause,size</h2>
+        <div style="text-align: center;">
+        <button onclick="playPause()">Play/Pause</button>
+        <button onclick="makeBig()">Big</button>
+        <button onclick="makeSmall()">Small</button>
+        <button onclick="makeNormal()">Normal</button>
+        <br><br>
+
+        <video id="video1" width="420">
+            <source src="img/mov_bbb.mp4" type="video/mp4">
+
+        </video>
+        </div>
+
+        <hr>
+
+
+        <hr>
+
+
+        <!-- Youtube-->
+
+
+        <p style="font-size: 50px;"><mark>Youtube</mark></p>
+
+<iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" width="420" height="345"></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+
+            function myfunction() {
+                var x = document.getElementsByClassName("cit");
+                for (var i = 0; i < x.length; i++) { x[i].style.display = "none"; }
+            }
+
+            function displayResult() {
+                document.getElementById("myheader").innerHTML = "The text is changed"
+            }
+
+            document.getElementById("ricky").innerHTML = "Hi this is ricky"
+
+            function myFunctionBtn() {
+                document.getElementById("demo1").innerHTML = "Text changed"
+            }
+
+            function myFunctionBtn1() {
+                document.getElementById("demo2").style.fontSize = "25px";
+                document.getElementById("demo2").style.color = "violet";
+                document.getElementById("demo2").style.backgroundColor = "black"
+            }
+
+            function light(sw) {
+                var pic;
+                if (sw == 0) {
+                    pic = "img/pic_bulboff.gif"
+                } else {
+                    pic = "img/pic_bulbon.gif"
+                }
+                document.getElementById("myimg").src = pic
+            }
+
+            var c = document.getElementById("myCan2");
+            var ctx = c.getContext("2d");
+            ctx.moveTo(0, 0);
+            ctx.lineTo(200, 100);
+            ctx.stroke();
+
+            var d = document.getElementById("myCan3");
+            var ctx = d.getContext("2d");
+            ctx.beginPath();
+            ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+            ctx.stroke();
+
+
+            var myVideo=document.getElementById("video1")
+            function playPause(){
+                if(myVideo.paused)
+                myVideo.play();
+                else
+                myVideo.pause();
+            }
+            function makeBig(){
+                myVideo.width=560;
+            }
+            function makeSmall(){
+                myVideo.width=320;
+            }
+            function makeNormal(){
+                myVideo.width=420;
+            }
+
+        </script>
+
+
+</body>
+
+</html>

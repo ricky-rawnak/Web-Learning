@@ -1,0 +1,35 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.homepage
+{
+    background-image:linear-gradient(180deg, rgba(148, 148, 148, 0.4) 5%, rgb(3, 3, 3) 90%),url(/img/homepage.jpg) ;
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+   /* border: 5px solid white;*/
+}
+.txtbox
+{
+    
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.hie
+{
+    color: #1BBC9B;
+}
+.services
+{
+    height: 100vh;
+    background-color: black;
+}
