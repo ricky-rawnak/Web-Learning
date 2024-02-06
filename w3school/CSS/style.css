@@ -1,5 +1,5 @@
 
-.heading-para{
+.h-para{
     font-size: 50px;
 }
 .first-para{
@@ -23,11 +23,8 @@ p.sample{
 }
 p.large{
     font-size: 300%;
-}
+} 
 
-/* *{
-    color: crimson;
-} */
 
 h1,h2,h3,p{
     color: rgb(1, 14, 1);
@@ -48,8 +45,6 @@ div.second{
 div.third{
     opacity: 0.6;
 }
-
-
 
 
 
