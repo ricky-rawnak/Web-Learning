@@ -475,10 +475,40 @@ div.sticky{
     height: auto;
     opacity: 0.3;
 }
-
-
-
-
+.zim{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+}
+.zbox{
+    position: relative;
+}
+.box1{
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+}
+.box2{
+    position: absolute;
+    z-index: 3;
+    background: grey;
+    height: 60px;
+    width: 70%;
+    left: 50px;
+    top: 50px;
+}
+.box3{
+    position: absolute;
+    z-index: 2;
+    background: green;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+}
 
 
 
